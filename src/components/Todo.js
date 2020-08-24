@@ -1,11 +1,14 @@
-import React from 'react';
+import React, {Component} from 'react';
 
-class App extends Todo {
-  
+class Todo extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div>
-        <h2>To do form</h2>
+        <h2>{this.props.task} </h2>
       </div>
     );
   }
