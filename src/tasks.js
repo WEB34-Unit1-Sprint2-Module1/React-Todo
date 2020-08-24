@@ -1,14 +1,14 @@
 const tasks = [
   {
-    task: 'assignment 1',
+    name: "assignment 1",
     id: 568432215,
-    completed: false
+    completed: false,
   },
   {
-    task: 'assignment 2',
+    name: "assignment 2",
     id: 1687613549,
-    completed: false
-  }
+    completed: false,
+  },
 ];
 
 export default tasks;
