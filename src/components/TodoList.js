@@ -17,6 +17,7 @@ class TodoList extends Component {
             toggleItem={this.props.toggleItem}
           />
         ))}
+        <button onClick={this.props.filter}>Clear Finished</button>
       </div>
     );
   }
