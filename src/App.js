@@ -10,7 +10,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      TodoList: tasks,
+      TodoList: tasks
     };
   }
 
@@ -28,7 +28,7 @@ class App extends React.Component {
 
   addNewTask = (taskText) => {
     const newTask = {
-      task: taskText,
+      name: taskText,
       id: Date.now(),
       completed: false,
     };

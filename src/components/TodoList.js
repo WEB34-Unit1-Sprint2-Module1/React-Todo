@@ -10,6 +10,7 @@ class TodoList extends Component {
   render() {
     return (
       <div>
+        {console.log('task', this.props.tasks)}
         {this.props.tasks.map((task) => (
           <Todo
             key={task.id}

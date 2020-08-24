@@ -9,6 +9,7 @@ class Todo extends Component {
   render() {
     return (
       <div>
+        {console.log('todo', this.props)}
         <div
           onClick={() => this.props.toggleItem(this.props.wholeTask.id)}
           className={`task-${this.props.wholeTask.completed ? "completed" : ""}`}
